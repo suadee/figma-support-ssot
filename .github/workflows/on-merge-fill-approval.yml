@@ -1,0 +1,31 @@
+name: 머지 시 승인자·게시일 기입
+ 
+on:
+  pull_request:
+    types: [closed]
+ 
+jobs:
+  fill:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+ 
+      - name: 메타데이터 기입
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/fill_approval.py ${{ github.event.pull_request.number }}
+ 
+      - name: 커밋
+        run: |
+          git config user.name "ssot-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "meta: PR #${{ github.event.pull_request.number }} 승인 정보 기입"
+          git push
+ 
