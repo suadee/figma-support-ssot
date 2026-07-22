@@ -1,0 +1,27 @@
+{
+  "_설명": "섹션 이름 키워드 규칙(위에서부터 먼저 매칭) → 없으면 카테고리 ID 매핑 → 없으면 기본값",
+  "keyword_rules": [
+    {"keywords": ["security", "authentication", "login", "sso", "saml", "scim", "2fa", "deploy figma"], "category": "보안"},
+    {"keywords": ["billing", "plan", "seats", "payment", "invoice", "contract"], "category": "계약"},
+    {"keywords": ["api", "webhook", "mcp", "rest"], "category": "API"},
+    {"keywords": ["dev mode", "plugin", "widget", "code", "developer", "build your first"], "category": "개발"},
+    {"keywords": ["admin", "manage a team", "manage workspaces", "manage files", "ownership", "sharing and permissions", "share and collaborate", "manage your account"], "category": "관리"}
+  ],
+  "zendesk_category_map": {
+    "360002051613": "디자인",
+    "360002042553": "디자인",
+    "41306509921687": "개발",
+    "360002051633": "디자인",
+    "24146015318551": "디자인",
+    "31823555275671": "디자인",
+    "31304285531543": "개발",
+    "31194838351767": "디자인",
+    "41274596092695": "디자인",
+    "360002772634": "관리",
+    "360001980773": "관리",
+    "23556790977431": "관리",
+    "6448726686615": "관리",
+    "23557013073047": "디자인"
+  },
+  "default": "관리"
+}
