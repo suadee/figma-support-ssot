@@ -1,0 +1,33 @@
+name: 월간 검토 기한 체크
+ 
+on:
+  schedule:
+    - cron: "0 0 1 * *"   # 매월 1일 09:00 KST
+  workflow_dispatch:
+ 
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+ 
+      - name: 검토 초과 문서 수집
+        id: stale
+        run: |
+          python scripts/check_stale.py > /tmp/stale.md
+          cat /tmp/stale.md
+ 
+      - name: 이슈 생성
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -q "검토 기한 초과 문서 없음" /tmp/stale.md; then
+            echo "생성할 이슈 없음"
+          else
+            gh issue create --title "[정기] $(date +%Y-%m) 문서 검토 필요 목록" \
+              --body-file /tmp/stale.md --label "검토필요"
+          fi
+ 
