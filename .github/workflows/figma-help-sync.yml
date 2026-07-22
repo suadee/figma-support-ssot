@@ -1,0 +1,40 @@
+name: Figma 헬프센터 주간 동기화
+ 
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # 매주 월요일 09:00 KST
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "처리할 문서 수 상한 (0=무제한, 초기 백필 시 사용)"
+        default: "100"
+ 
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+ 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+ 
+      - name: 인제스트 실행 (LLM/API 키 불필요)
+        run: |
+          pip install markdownify
+          python scripts/ingest_figma_help.py --limit "${{ github.event.inputs.limit || 100 }}"
+ 
+      - name: PR 생성
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: figma-help-sync
+          title: "[자동] Figma 헬프센터 동기화"
+          commit-message: "figma-help: 주간 동기화"
+          body: |
+            Figma 헬프센터 자동 동기화 결과입니다. 게이트웨이 검토 후 머지해주세요.
+            머지 시 승인자/게시일이 자동 기입됩니다.
+          labels: figma-help, 자동생성
+ 
