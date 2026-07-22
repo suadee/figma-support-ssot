@@ -2,11 +2,11 @@
 기술지원명: Guide to the file browser
 카테고리: 관리
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: Guide to the file browser
 출처링크: https://help.figma.com/hc/en-us/articles/14381406380183-Guide-to-the-file-browser
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

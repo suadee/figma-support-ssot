@@ -2,11 +2,11 @@
 기술지원명: Switch between accounts
 카테고리: 관리
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: Switch between accounts
 출처링크: https://help.figma.com/hc/en-us/articles/1500005165741-Switch-between-accounts
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

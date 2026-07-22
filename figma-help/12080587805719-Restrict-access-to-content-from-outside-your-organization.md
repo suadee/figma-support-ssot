@@ -2,11 +2,11 @@
 기술지원명: Restrict access to content from outside your organization
 카테고리: 보안
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: Restrict access to content from outside your organization
 출처링크: https://help.figma.com/hc/en-us/articles/12080587805719-Restrict-access-to-content-from-outside-your-organization
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

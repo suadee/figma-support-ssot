@@ -2,11 +2,11 @@
 기술지원명: Place images, video, and GIFs in FigJam
 카테고리: 디자인
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: Place images, video, and GIFs in FigJam
 출처링크: https://help.figma.com/hc/en-us/articles/1500004290881-Place-images-video-and-GIFs-in-FigJam
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

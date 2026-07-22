@@ -2,11 +2,11 @@
 기술지원명: View your sales metrics
 카테고리: 관리
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: View your sales metrics
 출처링크: https://help.figma.com/hc/en-us/articles/12818240767255-View-your-sales-metrics
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

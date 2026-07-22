@@ -2,11 +2,11 @@
 기술지원명: About selling Community resources
 카테고리: 관리
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: About selling Community resources
 출처링크: https://help.figma.com/hc/en-us/articles/12067637274519-About-selling-Community-resources
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

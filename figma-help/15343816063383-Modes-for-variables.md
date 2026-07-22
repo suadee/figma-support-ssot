@@ -2,11 +2,11 @@
 기술지원명: Modes for variables
 카테고리: 디자인
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: Modes for variables
 출처링크: https://help.figma.com/hc/en-us/articles/15343816063383-Modes-for-variables
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

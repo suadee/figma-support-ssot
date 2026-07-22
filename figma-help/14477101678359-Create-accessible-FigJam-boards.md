@@ -2,11 +2,11 @@
 기술지원명: Create accessible FigJam boards
 카테고리: 디자인
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: Create accessible FigJam boards
 출처링크: https://help.figma.com/hc/en-us/articles/14477101678359-Create-accessible-FigJam-boards
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

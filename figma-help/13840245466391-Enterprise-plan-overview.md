@@ -2,11 +2,11 @@
 기술지원명: Enterprise plan overview
 카테고리: 계약
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: Enterprise plan overview
 출처링크: https://help.figma.com/hc/en-us/articles/13840245466391-Enterprise-plan-overview
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용

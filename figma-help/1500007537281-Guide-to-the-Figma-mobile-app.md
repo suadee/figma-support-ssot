@@ -2,11 +2,11 @@
 기술지원명: Guide to the Figma mobile app
 카테고리: 관리
 작성자: Figma
-승인자: (승인 대기)
+승인자: suadee
 출처: Guide to the Figma mobile app
 출처링크: https://help.figma.com/hc/en-us/articles/1500007537281-Guide-to-the-Figma-mobile-app
-게시일: (승인 대기)
-검토일: (승인 대기)
+게시일: 2026-07-22
+검토일: 2026-07-22
 ---
 
 ## 내용
